@@ -30,8 +30,5 @@ sudo systemctl start ssh
 sudo apt update && sudo apt -y install chrony
 chronyc tracking
 
-# 5. Install fio for IOPS measurements of disks.
-
-
-# Disable root account
+# 5. Disable root account
 sudo passwd -l root
